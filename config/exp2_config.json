@@ -1,0 +1,21 @@
+{
+  "experiment": "Example 2.9 - Non-concavity of Indirect Utility",
+  "model": "one-step frictionless",
+  "feasible_strategy_set": [0, 1],
+  "utility": "log",
+  "return_distribution": {
+    "R_plus": 2,
+    "R_minus": -1,
+    "prob_plus": 0.5,
+    "prob_minus": 0.5
+  },
+  "domain_restriction": "z > 1",
+  "z_grid": {"start": 1.01, "end": 6.0, "num_points": 500},
+  "expected": {
+    "crossing_z": 2.0,
+    "crossing_value": "ln(2)",
+    "left_derivative_at_crossing": 0.5,
+    "right_derivative_at_crossing": 0.625,
+    "non_concave": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "experiment": "Example 2.10 - DP Replication under Transient Price Impact",
+  "horizon": 4,
+  "terminal_liability": 0,
+  "initial_half_spread": 0,
+  "initial_price": 0,
+  "resilience": [0.01, 0.01, 0.01, 0.01],
+  "market_depths": [10, 10, 15, 5],
+  "price_shocks": {
+    "epsilon_plus": 1,
+    "epsilon_minus": -1,
+    "prob_plus": 0.77,
+    "prob_minus": 0.23
+  },
+  "utility": {
+    "type": "piecewise_logistic",
+    "linear_below": 0,
+    "logistic_threshold": 5,
+    "description": "u(x)=x for x<=0; u(x)=[sigma(x-5)-sigma(-5)]/[1-sigma(-5)] for x>0"
+  },
+  "action_grid": {
+    "min": -4,
+    "max": 4,
+    "num_points": 17,
+    "description": "Equidistant grid on [-4,4]; num_points is sensitivity parameter"
+  },
+  "z_grid": {
+    "start": -5,
+    "end": 5,
+    "num_points": 50
+  },
+  "numerical_tolerance": 1e-10
+}

@@ -1,0 +1,26 @@
+{
+  "experiment": "Example 2.7 - Non-convexity of Attainable Set",
+  "horizon": 3,
+  "resilience": [0, 0, 0],
+  "initial_price": 0,
+  "initial_half_spread": 0,
+  "terminal_liability": 0,
+  "initial_capital_offset": 0,
+  "market_depths": {"delta_1": 1, "delta_2": 10, "delta_3": 10},
+  "witness_H": [1, 1, -2],
+  "witness_G": [1.5, 0, -1.5],
+  "midpoint_Hbar": [1.25, 0.5, -1.75],
+  "quadratic_form": {
+    "a11": 2.1,
+    "a12": 2.3,
+    "a22": 0.3,
+    "description": "Q(h1,h2) = (21/10)h1^2 + (23/10)h1*h2 + (3/10)h2^2"
+  },
+  "expected_values": {
+    "Q_H": 4.7,
+    "Q_G": 4.725,
+    "Q_Hbar": 4.79375,
+    "midpoint_average": 4.7125,
+    "contradiction_gap": -0.08125
+  }
+}

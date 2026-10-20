@@ -1,0 +1,322 @@
+{
+  "experiment": "exp_4",
+  "title": "Stress Tests: Non-Monotone Liquidity",
+  "total_instances": 17,
+  "consistent_instances": 17,
+  "consistency_rate": 1.0,
+  "non_monotone_instances": 12,
+  "monotone_instances": 5,
+  "non_monotone_consistent": 12,
+  "non_concavity_detected_count": 15,
+  "elapsed_seconds": 0.4411499500274658,
+  "instances": [
+    {
+      "instance_id": "A1",
+      "family": "A",
+      "T": 3,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        0.960789,
+        4.615582,
+        8.869204
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.5,
+      "dp_value_at_sample": 0.5,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.004398836601321066
+    },
+    {
+      "instance_id": "A2",
+      "family": "A",
+      "T": 3,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        2.0,
+        0.904837,
+        7.238699
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.49999999999999994,
+      "dp_value_at_sample": 0.49999999999999994,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.004398836601321204
+    },
+    {
+      "instance_id": "A3",
+      "family": "A",
+      "T": 4,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        0.980199,
+        7.686316,
+        2.825294,
+        5.538698
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.6080307213922109,
+      "dp_value_at_sample": 0.6080307213922109,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.173459887645528
+    },
+    {
+      "instance_id": "A4",
+      "family": "A",
+      "T": 3,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        3.0,
+        0.818731,
+        4.093654
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.0,
+      "dp_value_at_sample": 0.0,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.03318226071042092
+    },
+    {
+      "instance_id": "A5",
+      "family": "A",
+      "T": 2,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        1.0,
+        5.0
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.5,
+      "dp_value_at_sample": 0.5,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.004398836601321121
+    },
+    {
+      "instance_id": "B1",
+      "family": "B",
+      "T": 3,
+      "is_monotone_liquidity": true,
+      "liquidity_sequence": [
+        10.0,
+        5.0,
+        2.0
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.5,
+      "dp_value_at_sample": 0.5,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.004398836601321066
+    },
+    {
+      "instance_id": "B2",
+      "family": "B",
+      "T": 3,
+      "is_monotone_liquidity": true,
+      "liquidity_sequence": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.5021732031690319,
+      "dp_value_at_sample": 0.5021732031690319,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.0035165176945016474
+    },
+    {
+      "instance_id": "B3",
+      "family": "B",
+      "T": 4,
+      "is_monotone_liquidity": true,
+      "liquidity_sequence": [
+        3.678794,
+        1.082682,
+        0.298722,
+        0.073263
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.6158401167048646,
+      "dp_value_at_sample": 0.6158401167048646,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.005931511783440868
+    },
+    {
+      "instance_id": "B4",
+      "family": "B",
+      "T": 3,
+      "is_monotone_liquidity": true,
+      "liquidity_sequence": [
+        8.0,
+        6.0,
+        4.0
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.0,
+      "dp_value_at_sample": 0.0,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": false,
+      "max_second_diff": 5.551115123125783e-16
+    },
+    {
+      "instance_id": "B5",
+      "family": "B",
+      "T": 2,
+      "is_monotone_liquidity": true,
+      "liquidity_sequence": [
+        4.093654,
+        2.01096
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.5,
+      "dp_value_at_sample": 0.5,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.004398836601321121
+    },
+    {
+      "instance_id": "C_T2",
+      "family": "C",
+      "T": 2,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        4.900993,
+        6.725526
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.5,
+      "dp_value_at_sample": 0.5,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.004398836601321121
+    },
+    {
+      "instance_id": "C_T3",
+      "family": "C",
+      "T": 3,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        4.900993,
+        6.725526,
+        8.475881
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.5,
+      "dp_value_at_sample": 0.5,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.0066564505582709654
+    },
+    {
+      "instance_id": "C_T4",
+      "family": "C",
+      "T": 4,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        4.900993,
+        6.725526,
+        8.475881,
+        10.15428
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.51423769871617,
+      "dp_value_at_sample": 0.51423769871617,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.00690267284870455
+    },
+    {
+      "instance_id": "C_T5",
+      "family": "C",
+      "T": 5,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        4.900993,
+        6.725526,
+        8.475881,
+        10.15428,
+        11.762886
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.5362724485201329,
+      "dp_value_at_sample": 0.5362724485201329,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.009241943870470393
+    },
+    {
+      "instance_id": "D_logistic_bounded",
+      "family": "D",
+      "T": 3,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        2.940596,
+        0.960789,
+        4.708823
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.5,
+      "dp_value_at_sample": 0.5,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.004398836601321066
+    },
+    {
+      "instance_id": "D_linear_bounded",
+      "family": "D",
+      "T": 3,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        2.940596,
+        0.960789,
+        4.708823
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.0,
+      "dp_value_at_sample": 0.0,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": false,
+      "max_second_diff": 6.661338147750939e-16
+    },
+    {
+      "instance_id": "D_piecewise_logistic",
+      "family": "D",
+      "T": 3,
+      "is_monotone_liquidity": false,
+      "liquidity_sequence": [
+        2.940596,
+        0.960789,
+        4.708823
+      ],
+      "dp_matches_brute_force": true,
+      "brute_force_value": 0.0,
+      "dp_value_at_sample": 0.0,
+      "forward_matches": true,
+      "accounting_ok": true,
+      "non_concavity_detected": true,
+      "max_second_diff": 0.0267185827578358
+    }
+  ]
+}

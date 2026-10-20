@@ -1,0 +1,65 @@
+{
+  "experiment": "exp_1",
+  "title": "Non-convexity of Attainable Set S (Example 2.7)",
+  "parameters": {
+    "T": 3,
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "delta": [
+      1.0,
+      10.0,
+      10.0
+    ],
+    "zeta_0": 0.0,
+    "xi_0": 0.0,
+    "B": 0.0,
+    "model": "transient price impact, r_t=0 => rho_{j,t}=1"
+  },
+  "strategies": {
+    "H": [
+      1.0,
+      1.0,
+      -2.0
+    ],
+    "G": [
+      1.5,
+      0.0,
+      -1.5
+    ],
+    "Hbar": [
+      1.25,
+      0.5,
+      -1.75
+    ]
+  },
+  "Q_H": 4.7,
+  "Q_G": 4.7250000000000005,
+  "Q_Hbar": 4.79375,
+  "midpoint_average": 4.7125,
+  "contradiction_gap": -0.08124999999999982,
+  "is_non_convex": true,
+  "Q_H_exact": "47/10",
+  "Q_G_exact": "189/40",
+  "Q_Hbar_exact": "767/160",
+  "liquidation_checks": {
+    "H": true,
+    "G": true,
+    "Hbar": true
+  },
+  "recursive_vs_explicit_checks": {
+    "H": true,
+    "G": true,
+    "Hbar": true
+  },
+  "expected_values": {
+    "Q_H": 4.7,
+    "Q_G": 4.725,
+    "Q_Hbar": 4.79375,
+    "midpoint_average": 4.7125,
+    "contradiction_gap": -0.08125
+  },
+  "all_match": true
+}
